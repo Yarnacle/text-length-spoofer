@@ -18,7 +18,7 @@ function App() {
 	return (
 		<div className="App">
 			<form onSubmit={spoof}>
-				<textarea placeholder="Text to be obfuscated..." id="text-field" onChange={(e) => setText(e.target.value)} value={text} />
+				<textarea placeholder="Text to be spoofed..." id="text-field" onChange={(e) => setText(e.target.value)} value={text} />
 				<input type="number" onChange={(e) => setNumToAdd(e.target.value)} value={numToAdd} />
 				<input type="submit" />
 			</form>
