@@ -12,7 +12,7 @@ function App() {
 	const spoof = e => {
 		e.preventDefault();
 		
-		setSpoofedText(`${text}${' ⠀'.repeat(numToAdd)}`);
+		setSpoofedText(`${text}${' ⠀'.repeat(numToAdd)}`);
 	};
 
 	return (
